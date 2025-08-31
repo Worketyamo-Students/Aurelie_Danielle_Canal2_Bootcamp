@@ -25,6 +25,36 @@
         </style>
 </head>
 
-<body>
+<body class="w-screen h-screen -font-Inter">
+    <header class="w-full h-30 flex bg-transparente justify-between px-10 items-center">
+        <div class="">
+            <a href="#">
+                <img src="./assets/images/logo.svg" alt="logo canal2" class="">
+            </a>
+        </div>
+        <div class="hidden sm:w-3/5 sm:flex ">
+            <ul class="w-full flex justify-around items-center text-3xl capitalize">
+                <a href="#" class=" hover:text-GreenMenu hover:underline">
+                    <li>accueil</li>
+                </a>
+                <a href="#" class=" hover:text-GreenMenu hover:underline">
+                    <li>actualités</li>
+                </a>
+                <a href="#"  class=" hover:text-GreenMenu hover:underline">
+                    <li>programme</li>
+                </a>
+                <a href="#"  class=" hover:text-GreenMenu hover:underline">
+                    <li>direct</li>
+                </a>   
+            </ul>
+        </div>
+        <div class=" hidden sm:block "> 
+                       <button class="sm:border sm:text-4xl sm:rounded-[50px] sm:bg-GreenMenubouton sm:text-white sm:px-12 sm:py-5 sm:font-bold">
+                        premium</button>
+        </div>
+        <div class="sm:hidden">
+            <ion-icon name="menu"></ion-icon>
+        </div>
+    </header>
 </body>
 </html>

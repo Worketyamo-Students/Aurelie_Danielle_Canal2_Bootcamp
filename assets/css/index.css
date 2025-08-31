@@ -10,8 +10,6 @@ html{
 
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
     border: none;
 }
 
@@ -20,4 +18,8 @@ body{
     height: 100%;
     width: 100vw;
     background: var(--WhiteColor);
+}
+
+ion-icon{
+    font-size: 4rem;
 }
